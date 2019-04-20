@@ -18,11 +18,11 @@
 
 6. After reviewing the machine settings, click **Launch**.
 
-7. In the _Select an existen key pair or create a new key pair_ modal select **Create a new key pair** in the first dropdown and type **aws_key** in the _key pair name_ textfield:
+7. In the _Select an existing key pair or create a new key pair_ modal select **Create a new key pair** in the first dropdown and type **aws_key** in the _key pair name_ textfield:
 
 ![key pair modal](images/key-pair-modal.png)
 
-8. Download the key pair clicking the _Download Key Pair_ button. Save the file in a secure location.
+8. Download the key pair file clicking the _Download Key Pair_ button. Save the file in a secure location.
 
 9. Click **Launch Instance**
 
@@ -46,7 +46,7 @@ In order to connect the new instance the key pair file downloaded in the step 8 
 
 ![terminal on folder](images/terminal.png)
 
-5. Give the 400 octal permission to the key pair file, executing **chmod 400 aws_key.pem**:
+5. Give the 400 octal permission to the key pair file, executing **chmod 400 aws_key.pem** (Only on Linux systems):
 
 ![terminal on folder](images/terminal2.png)
 
