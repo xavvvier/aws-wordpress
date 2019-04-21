@@ -32,6 +32,19 @@
 
    Follow the steps provided in the standard output making sure you select a STRONG password. Answer yes (y) for all the yes/no questions asked.
 
+6. To verify that mysql was installed successfully run:
+
+```bash
+   sudo mysql -u root -p
+```
+
+  And provide the given password in the previous step followed by Enter. The mysql prompt is shown:
+
+![mysql prompt](images/mysql.png)
+
+7. Type **quit;** to go back to the Terminal.
+
+
 ### Enable Http Inbound connections
 
 1. Go to the Instance List on aws console and select the proper instance.
