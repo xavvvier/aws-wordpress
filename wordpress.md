@@ -143,7 +143,7 @@ Database host and table prefix could be left with the default values.
 6. Copy the zip file to and move to the WordPress plugin folder:
 
 ```bash
-   sudo cp nextgen-gallery.3.1.17.zip /var/www/html/wp-content/plugins && /var/www/html/wp-content/plugins
+   sudo cp nextgen-gallery.3.1.17.zip /var/www/html/wp-content/plugins && cd /var/www/html/wp-content/plugins
 ```
 
 7. Install the zip command tool using: 
@@ -167,6 +167,54 @@ Type y and Enter when asked to continue.
 10. Click **Activate** next to your new plugin.
 
 11. Start working with your new plugin.
+
+
+
+### Installing a Theme
+
+1. Navigate to https://wordpress.org/theme/ and search for theme to install.
+
+2. Once you found the theme, you will see a page like this:
+
+![wordpress theme](images/wordpress-theme.png)
+
+3. Right click the **Download** button and copy the link address.
+
+4. Open the terminal connected through SSH to your server.
+
+5. Download the file using the wget tool. My selected theme will be:
+
+```bash
+   wget https://downloads.wordpress.org/theme/bard.1.4.9.8.zip
+```
+
+6. Copy the zip file to and move to the WordPress theme folder:
+
+```bash
+   sudo cp bard.1.4.9.8.zip /var/www/html/wp-content/themes && cd /var/www/html/wp-content/themes
+```
+
+7. Install the zip command tool using if you have not installed it yet: 
+
+```bash
+   sudo apt install zip
+```
+
+Type y and Enter when asked to continue.
+
+8. Unzip the zip file using: 
+
+```bash
+   sudo unzip bard.1.4.9.8.zip
+```
+
+9. Navigate to your WordPress dashboard and click the **Appearance/Themes** tab:
+
+![wordpress themes dashboard](images/wordpress-themes-dashboard.png)
+
+10. Over your mouse cursor over the theme and click **Activate**.
+
+11. Start working with your new theme.
 
 
 
