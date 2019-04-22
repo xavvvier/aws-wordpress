@@ -74,4 +74,16 @@
 ![apache default page](images/apache-default.png)
 
 
+### Testing php
 
+1. Create a new php file named `phpinfo.php` located at `/var/www/html` with the following content:
+
+```php
+   <?php
+   phpinfo();
+   ?>
+```
+
+2. Navigate to your domain using `phpinfo.php` as path, your address should look like http://ec2-18-233-153-97.compute-1.amazonaws.com/phpinfo.php with a result like:
+
+![php info default](images/php-info.png)
