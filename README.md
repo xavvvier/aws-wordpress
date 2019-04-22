@@ -8,7 +8,7 @@ Each component has a separate guide to follow:
    * [Connecting to the Instance](instance.md#connecting-to-the-instance)
 
 * [LAMP Installation](lamp.md)
-   * [Installing Apache](Apache.md#installing-apache)
+   * [Enable Http Inbound connections](lamp.md#enable-http-inbound-connections)
 
 * [WordPress Installation](wordpress.md)
 
