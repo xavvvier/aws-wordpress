@@ -121,3 +121,52 @@ Database host and table prefix could be left with the default values.
 13. The Wordpress dashboard is shown:
 
 ![wordpress dashboard](images/wordpress-dashboard.png)
+
+### Installing a Plugin
+
+1. Navigate to https://wordpress.org/plugins/ and search for plugin to install.
+
+2. Once you found the plugin, you will see a page like this:
+
+![wordpress plugin](images/wordpress-plugin.png)
+
+3. Right click the **Download** button and copy the link address.
+
+4. Open the terminal connected through SSH to your server.
+
+5. Download the file using the wget tool. My selected plugin will be:
+
+```bash
+   wget https://downloads.wordpress.org/plugin/nextgen-gallery.3.1.17.zip
+```
+
+6. Copy the zip file to and move to the WordPress plugin folder:
+
+```bash
+   sudo cp nextgen-gallery.3.1.17.zip /var/www/html/wp-content/plugins && /var/www/html/wp-content/plugins
+```
+
+7. Install the zip command tool using: 
+
+```bash
+   sudo apt install zip
+```
+
+Type y and Enter when asked to continue.
+
+8. Unzip the zip file using: 
+
+```bash
+   sudo unzip nextgen-gallery.3.1.17.zip
+```
+
+9. Navigate to your WordPress dashboard and click the **Plugins** tab:
+
+![wordpress plugin dashboard](images/wordpress-plugin-dashboard.png)
+
+10. Click **Activate** next to your new plugin.
+
+11. Start working with your new plugin.
+
+
+
