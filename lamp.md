@@ -42,16 +42,16 @@
 
 ![mysql prompt](images/mysql.png)
 
-7. Type **quit;** to go back to the Terminal.
+7. Type **quit;** to go back to the Terminal
 
 
 ### Enable Http Inbound connections
 
 1. Go to the Instance List on aws console and select the proper instance.
 
-2. Under the Description tab, there is a section named **IPv4 Public IP**, copy that IP Address.
+2. Under the Description tab, there is a entry named **Public DNS (IPv4)**, copy that domain.
 
-3. Under the Description tab, there is a section named **Security groups**:
+3. Under the Description tab, there is a entry named **Security groups**:
 
 ![aws console security group sections](images/aws-security-groups.png)
 
@@ -69,7 +69,7 @@
 
 8. Click **Save**.
 
-9. Open a web browser and navigate to the IP address copied on step 2. You should see the Apache2 default page:
+9. Open a web browser and navigate to the DNS copied on step 2. You should see the Apache2 default page:
 
 ![apache default page](images/apache-default.png)
 
