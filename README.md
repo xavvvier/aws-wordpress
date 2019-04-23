@@ -17,3 +17,7 @@ Each component has a separate guide to follow:
    * [Installing a plugin](wordpress.md#installing-a-plugin)
    * [Installing a theme](wordpress.md#installing-a-theme)
 
+* [WordPress Migration to cPanel](migration.md)
+   * [Set Up cPanel](migration.md#set-up-cpanel)
+   * [Backing up](migration.md#backing-up)
+   * [Moving to cPanel](migration.md#moving-to-cpanel)
